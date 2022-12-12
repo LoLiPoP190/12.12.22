@@ -43,3 +43,31 @@
     height: 40px;
   }
 }
+
+@media screen and (min-width: 600px) {
+  .example-2 {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .example-2 {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .example-2 {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .example-2 {
+    width: 120px;
+    height: 120px;
+  }
+}
