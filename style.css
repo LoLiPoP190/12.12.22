@@ -58,7 +58,7 @@
   }
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1199px) {
+@media screen and (min-width: 1000px) {
   .example-2 {
     width: 100px;
     height: 100px;
@@ -76,16 +76,29 @@
   }
 }
 
-@media screen and (min-width:500px) {
-  .example-3 img{
+@media screen and (min-width: 500px) {
+  .example-3 img {
     max-width: 500px;
   }
 }
 
 .example-4 ul {
   display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
+  margin-top: 50px;
 }
-.example-4 ul li a{
-  padding:10px; 
+.example-4 ul li a {
+  display: block;
+  padding: 25px 20px;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width:1170px) {
+  .example-4{
+    display: none;
+  }
+
 }
