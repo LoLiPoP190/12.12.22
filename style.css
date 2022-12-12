@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+.example-1 {
+  background-color: black;
+  color: white;
+  padding: 15px 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media print {
+  .example-1 {
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .example-1 {
+    background-color: darkred;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .example-1 {
+    font-size: 14px;
+  }
+}
